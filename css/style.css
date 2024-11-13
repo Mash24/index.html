@@ -1,0 +1,84 @@
+/* Basic Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* List Styles */
+  .list-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left-list {
+    list-style-type: disc;
+  }
+  
+  .right-list {
+    list-style-type: decimal;
+  }
+  
+  /* Navigation Bar Styles */
+  ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  ul.navbar li {
+    float: left;
+  }
+  
+  ul.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  ul.navbar li a:hover {
+    background-color: #111;
+  }
+  
+  /* Block Elements Styles */
+  div {
+    margin-bottom: 10px;
+  }
+  
+  /* City Class Styling */
+  .city {
+    background-color: lightblue;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  /* WWF Section Styles */
+  .w3-third {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+  }
+  
+  /* Form Styles */
+  form {
+    margin: 20px 0;
+  }
+  
+  label {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
